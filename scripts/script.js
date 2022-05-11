@@ -5,7 +5,7 @@ function changeBg(){
     var navbar = document.getElementById('navbar')
     var navScroll = window.scrollY
 
-    if(navScroll < 390){
+    if(navScroll < 460){
         navbar.style.background = 'transparent'
     }else{
         navbar.style.background = 'rgba(33,37,41,1)'
