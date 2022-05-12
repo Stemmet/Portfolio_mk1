@@ -4,14 +4,14 @@
         rgba(0, 30, 255, 0.567),
         rgba(149, 0, 187, 0.933)
       ),
-      /* bottom, image */ url(https://cdn.wallpapersafari.com/14/38/yJvWtu.jpg);
+      /* bottom, image */ url(https://i.pinimg.com/originals/28/23/89/282389fb96a75bb104b35d826443980c.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
   }
 
   #cameron{
-    transform: translateY(40px);
+    transform: translateY(50px);
   }
   
 
