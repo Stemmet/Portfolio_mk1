@@ -14,8 +14,8 @@
 </head>
 
 <body class="bg-dark">
-    
-    <section class="sticky-lg-top" id="landing">
+
+    <section class="fixed-top" id="landing">
         <nav id="navbar" class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-lg">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,9 +43,9 @@
                 </div>
             </div>
         </nav>
-</section>
+    </section>
 
-<section class="bg-transparent text-light" id="landing">
+    <section class="bg-transparent text-light" id="landing">
         <div class="container bg-transparent">
             <div class="row">
                 <div class="col-lg-3">
@@ -78,15 +78,15 @@
                         <div class="col-md-5">
                             <a target="_blank" href="https://github.com/Stemmet?tab=repositories" class="text-light"><i
                                     class="bi bi-github"></i></a>
-                            <a target="_blank" href="https://www.linkedin.com/in/cameron-stemmet-023286238/" class="text-light"><i
-                                    class="bi bi-linkedin"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/cameron-stemmet-023286238/"
+                                class="text-light"><i class="bi bi-linkedin"></i></a>
                             <a target="_blank" href="https://www.facebook.com/cameron.stemmet.9/" class="text-light"><i
                                     class="bi bi-facebook"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>
     </section>
 
     <section class="bg-dark text-light pt-5 mt-5" id="hi">
@@ -213,33 +213,30 @@
 
     <section class="bg-dark text-light py-5" id="projects">
         <div class="container">
-            <h2>Projects_</h2>
-            <div class="projects-container">
-                <div class="row">
-                    <div class="col-md-6 pb-4" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                    src="./images/Screenshot 2022-04-21 161151.png" />
-                    </div>
-                </div>
+            <h2 class="text-primary">Projects_</h2>
+            <div class="projects-container w-100 justify-content-lg-start">
+                <img data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    src="./images/Screenshot 2022-04-21 161151.png" class="img-fluid w-100" />
+                <img data-bs-toggle="modal" data-bs-target="#exampleModal2"
+                    src="./images/Screenshot 2022-04-22 085331.png" class="img-fluid w-100" />
+                <img data-bs-toggle="modal" data-bs-target="#exampleModal3"
+                    src="./images/Screenshot 2022-05-11 102253.png" class="img-fluid w-100" />
             </div>
+        </div>
 
-            <div class="projects-container">
-                <div class="row">
-                    <div class="col-md-6 pb-4" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1600">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal2"
-                                    src="./images/Screenshot 2022-04-22 085331.png" />
-                    </div>
+        <div class="projects-container">
+            <div class="row">
+                <div class="col-md-6 pb-4" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1600">
                 </div>
             </div>
+        </div>
 
-            <div class="projects-container">
-                <div class="row">
-                    <div class="col-md-6 pb-4" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1700">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal3"
-                                    src="./images/Screenshot 2022-05-11 102253.png" class="img-fluid"/>
-                    </div>
+        <div class="projects-container">
+            <div class="row">
+                <div class="col-md-6 pb-4" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1700">
                 </div>
             </div>
+        </div>
         </div>
 
         <div class="modal fade text-start " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -259,14 +256,18 @@
                                 <div class="col-md-6">
                                     <h4>Calculator</h4>
                                     <p>
-                                        This is a calculator that i created with HTML and CSS. This was 1 of my first projects.
+                                        This is a calculator that i created with HTML and CSS. This was 1 of my first
+                                        projects.
                                     </p>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <a class="btn btn-outline-info w-100" target="_blank" href="https://github.com/Stemmet/calculator" role="button">GitHub</a> 
+                                            <a class="btn btn-outline-info w-100" target="_blank"
+                                                href="https://github.com/Stemmet/calculator" role="button">GitHub</a>
                                         </div>
                                         <div class="col-md-6">
-                                            <a class="btn btn-outline-info w-100" target="_blank" href="https://bejewelled-babka-a402ad.netlify.app" role="button">Netlify</a> 
+                                            <a class="btn btn-outline-info w-100" target="_blank"
+                                                href="https://bejewelled-babka-a402ad.netlify.app"
+                                                role="button">Netlify</a>
                                         </div>
                                     </div>
                                 </div>
@@ -299,14 +300,18 @@
                                 <div class="col-md-6">
                                     <h4>Rainbow</h4>
                                     <p>
-                                        This was a rainbow that I've created with CSS and HTML. This was 1 of my first projects. 
+                                        This was a rainbow that I've created with CSS and HTML. This was 1 of my first
+                                        projects.
                                     </p>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <a class="btn btn-outline-info w-100" target="_blank" href="https://github.com/Stemmet/rainbow" role="button">GitHub</a> 
+                                            <a class="btn btn-outline-info w-100" target="_blank"
+                                                href="https://github.com/Stemmet/rainbow" role="button">GitHub</a>
                                         </div>
                                         <div class="col-md-6">
-                                            <a class="btn btn-outline-info w-100" target="_blank" href="https://jade-banoffee-60014b.netlify.app" role="button">Netlify</a> 
+                                            <a class="btn btn-outline-info w-100" target="_blank"
+                                                href="https://jade-banoffee-60014b.netlify.app"
+                                                role="button">Netlify</a>
                                         </div>
                                     </div>
                                 </div>
@@ -339,16 +344,19 @@
                                 <div class="col-md-6">
                                     <h4>Holiday Site</h4>
                                     <p>
-                                        This is my first project ever, I've created it with only HTML and proves how far I've come. 
+                                        This is my first project ever, I've created it with only HTML and proves how far
+                                        I've come.
                                     </p>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <a class="btn btn-outline-info w-100" target="_blank" href="https://github.com/Stemmet/holiday_destination" role="button">GitHub</a> 
+                                            <a class="btn btn-outline-info w-100" target="_blank"
+                                                href="https://github.com/Stemmet/holiday_destination"
+                                                role="button">GitHub</a>
                                         </div>
                                         <div class="col-md-6">
                                             <a class="btn btn-outline-info w-100" target="_blank" href="https://beamish-kringle-b5d436.netlify.app
-
-                                            " role="button">Netlify</a> 
+                                            
+                                            " role="button">Netlify</a>
                                         </div>
                                     </div>
                                 </div>
@@ -366,71 +374,96 @@
     </section>
 
     <section class="testimonial-slider bg-dark text-light">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
-            </div>
-            <div class="carousel-inner py-5 text-center">
-                <div class="carousel-item active">
-                    <i class="bi bi-chat-right-quote fs-1 text-info"></i>
-                    <figure class="text-cent col-md-6 offset-md-3 mt-4">
-                        <blockquote class="blockquote">
-                            <p>Along with his undeniable talent, Cameron has always been an absolute joy to work with.
-                                He is a true team player, and always manages to foster positive discussions in HTML
-                                coding and bring the best out of other students- He is a good candidate for your
-                                organization.</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer mt-2">Joel Mukanya- Coding Lecturer</figcaption>
-                    </figure>
+        <div class="container text-primary">
+            <h2>Testimonials_</h2>
+        </div>
+        <div class="container bg-transparent" id="landing">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
                 </div>
-                <div class="carousel-item">
-                    <i class="bi bi-chat-right-quote fs-1 text-info"></i>
-                    <figure class="col-md-6 offset-md-3 mt-4">
-                        <blockquote class="blockquote">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer mt-2">Jonh Son</figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <i class="bi bi-chat-right-quote fs-1 text-info"></i>
-                    <figure class="col-md-6 offset-md-3 mt-4">
-                        <blockquote class="blockquote">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer mt-2">Jonh Son</figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <i class="bi bi-chat-right-quote fs-1 text-info"></i>
-                    <figure class="col-md-6 offset-md-3 mt-4">
-                        <blockquote class="blockquote">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer mt-2">Jonh Son</figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <i class="bi bi-chat-right-quote fs-1 text-info"></i>
-                    <figure class="col-md-6 offset-md-3 mt-4">
-                        <blockquote class="blockquote">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer mt-2">Jonh Son</figcaption>
-                    </figure>
+                <div class="carousel-inner py-5 text-center">
+                    <div class="carousel-item active">
+                        <i class="bi bi-chat-right-quote fs-1 text-info"></i>
+                        <figure class="text-cent col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Along with his undeniable talent, Cameron has always been an absolute joy to work
+                                    with.
+                                    He is a true team player, and always manages to foster positive discussions in HTML
+                                    coding and bring the best out of other students- He is a good candidate for your
+                                    organization.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Joel Mukanya- Coding Lecturer</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="bi bi-chat-right-quote fs-1 text-info"></i>
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron is bright young lad who is well respected by his peers. He has produced
+                                    exceptional work thus far and always takes his work seriously. We are lucky to have
+                                    him in this field. He loves shrek!</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Ikhlaas Rawoot- Peer</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="bi bi-chat-right-quote fs-1 text-info"></i>
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron Stemmet is an incredibly motivated specimen , he strives to reach his goals
+                                    and will put twice the amount of work in to achieve everything . He is a extremely
+                                    talented person with many skills.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Mudassar Khopatkar- Peer</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="bi bi-chat-right-quote fs-1 text-info"></i>
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron is a genuine, kind, loving, inspirational and entertaining fellow. He brings
+                                    life into any room and any team, just make sure it's not your kind.
+                                    He has the capability and sensibility to make breakthroughs with his steadfast
+                                    dedication and discipline. He is one of the best developers I know. My inspiration.
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Tshimologo King Mabena- Peer</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="bi bi-chat-right-quote fs-1 text-info"></i>
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron is a funny, focused and driven character. He views things differently from
+                                    others and this allows him to handle situation differently. Cameron knows how to get
+                                    you in a mood like no other he makes you want to do better.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Joshua Solomons- Peer</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="bi bi-chat-right-quote fs-1 text-info"></i>
+                        <figure class="col-md-6 offset-md-3 mt-4">
+                            <blockquote class="blockquote">
+                                <p>Cameron has a super positive attitude and always brings the energy, It would be
+                                    difficult to maintain a bad mood when he's around. He's intelligent and easy-going
+                                    which makes doing business with him an absolute pleasure</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mt-2">Jesse Spence- Peer</figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
@@ -446,13 +479,14 @@
                         </div>
                         <h3 class="text-light">+27 62 823 3134</h3>
                         <h3 class="text-light">cameronstemmet2@gmail. com</h3>
-                        <a class="text-light" href="https://www.facebook.com/cameron.stemmet.9/">
+                        <a class="text-light" target="_blank" href="https://www.facebook.com/cameron.stemmet.9/">
                             <h4>Facebook</h4>
                         </a>
-                        <a class="text-light" href="https://www.linkedin.com/in/cameron-stemmet-023286238/">
+                        <a class="text-light" target="_blank"
+                            href="https://www.linkedin.com/in/cameron-stemmet-023286238/">
                             <h4>Linkedin</h4>
                         </a>
-                        <a class="text-light" href="https://github.com/Stemmet?tab=repositories">
+                        <a class="text-light" target="_blank" href="https://github.com/Stemmet?tab=repositories">
                             <h4>GitHub</h4>
                         </a>
                         <br>

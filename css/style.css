@@ -23,7 +23,7 @@
 
 .projects-container img{
     max-height: 100%;
-    max-width: 30rem;
+    max-width: 26rem;
     flex-grow: 1;
     object-fit: cover;
 }
