@@ -13,7 +13,6 @@
   #cameron{
     transform: translateY(50px);
   }
-  
 
   .projects-container{
     display: flex;
@@ -29,7 +28,7 @@
     object-fit: cover;
 }
 
-body{
+html, body{
   overflow-x: hidden;
 }
 
